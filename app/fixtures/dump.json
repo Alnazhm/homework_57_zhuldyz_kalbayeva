@@ -1,0 +1,146 @@
+[
+{
+  "model": "todolist.tasks",
+  "pk": 2,
+  "fields": {
+    "summary": "Visit doctor",
+    "description": "",
+    "status": 2,
+    "type": 2,
+    "created_at": "2022-10-06T18:39:49.091Z",
+    "updated_at": "2022-10-06T22:41:12.831Z"
+  }
+},
+{
+  "model": "todolist.tasks",
+  "pk": 3,
+  "fields": {
+    "summary": "Read book",
+    "description": "At weekends",
+    "status": 1,
+    "type": 1,
+    "created_at": "2022-10-06T22:41:40.322Z",
+    "updated_at": "2022-10-06T22:45:40.877Z"
+  }
+},
+{
+  "model": "todolist.tasks",
+  "pk": 4,
+  "fields": {
+    "summary": "Visit parents",
+    "description": "At weekends",
+    "status": 1,
+    "type": 1,
+    "created_at": "2022-10-06T22:44:16.258Z",
+    "updated_at": "2022-10-06T22:44:16.259Z"
+  }
+},
+{
+  "model": "todolist.tasks",
+  "pk": 5,
+  "fields": {
+    "summary": "Complete project1",
+    "description": "",
+    "status": 2,
+    "type": 3,
+    "created_at": "2022-10-06T22:46:17.344Z",
+    "updated_at": "2022-10-06T22:46:17.344Z"
+  }
+},
+{
+  "model": "todolist.tasks",
+  "pk": 6,
+  "fields": {
+    "summary": "Task2",
+    "description": "",
+    "status": 3,
+    "type": 3,
+    "created_at": "2022-10-06T22:51:12.008Z",
+    "updated_at": "2022-10-06T22:51:12.008Z"
+  }
+},
+{
+  "model": "todolist.tasks",
+  "pk": 7,
+  "fields": {
+    "summary": "task3",
+    "description": "",
+    "status": 1,
+    "type": 1,
+    "created_at": "2022-10-06T22:52:05.255Z",
+    "updated_at": "2022-10-06T22:52:05.256Z"
+  }
+},
+{
+  "model": "todolist.status",
+  "pk": 1,
+  "fields": {
+    "name": "New",
+    "created_at": "2022-10-06T18:38:36.399Z",
+    "updated_at": "2022-10-06T18:38:36.399Z"
+  }
+},
+{
+  "model": "todolist.status",
+  "pk": 2,
+  "fields": {
+    "name": "In Progress",
+    "created_at": "2022-10-06T18:38:48.005Z",
+    "updated_at": "2022-10-06T18:38:48.005Z"
+  }
+},
+{
+  "model": "todolist.status",
+  "pk": 3,
+  "fields": {
+    "name": "Done",
+    "created_at": "2022-10-06T18:38:53.032Z",
+    "updated_at": "2022-10-06T18:38:53.033Z"
+  }
+},
+{
+  "model": "todolist.type",
+  "pk": 1,
+  "fields": {
+    "name": "Task",
+    "created_at": "2022-10-06T18:37:30.141Z",
+    "updated_at": "2022-10-06T18:37:30.141Z"
+  }
+},
+{
+  "model": "todolist.type",
+  "pk": 2,
+  "fields": {
+    "name": "Enhancement",
+    "created_at": "2022-10-06T18:37:53.001Z",
+    "updated_at": "2022-10-06T18:37:53.001Z"
+  }
+},
+{
+  "model": "todolist.type",
+  "pk": 3,
+  "fields": {
+    "name": "Bug",
+    "created_at": "2022-10-06T18:38:06.450Z",
+    "updated_at": "2022-10-06T18:38:06.450Z"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$QOHz2MamtBVRy4gxWnsN4i$NuKk/Vyykr3t52I5LKhIoCYH5kE8pA342GuB3S4LkKA=",
+    "last_login": "2022-10-06T18:35:45.403Z",
+    "is_superuser": true,
+    "username": "root",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-10-06T16:51:44.500Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
