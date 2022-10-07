@@ -5,7 +5,10 @@ from django import forms
 
 class TaskForm(forms.ModelForm):
     status = forms.ModelChoiceField(queryset=Status.objects.all())
-    type = forms.ModelChoiceField(queryset=Type.objects.all())
+    type = forms.ModelMultipleChoiceField(
+        queryset=Type.objects.all(),
+        widget=forms.CheckboxSelectMultiple
+    )
 
     class Meta:
         model = Tasks

@@ -9,12 +9,11 @@ class Tasks(models.Model):
         verbose_name='Статус задачи',
         related_name='statuses',
         on_delete=models.PROTECT)
-    type = models.ForeignKey(
+    type = models.ManyToManyField(
         to='todolist.Type',
         verbose_name='Тип задачи',
         related_name='tasks',
-        blank=True,
-        on_delete=models.PROTECT)
+        blank=True)
     created_at = models.DateTimeField(verbose_name='Время создания', auto_now_add=True)
     updated_at = models.DateTimeField(verbose_name='Время изменения', auto_now=True)
 

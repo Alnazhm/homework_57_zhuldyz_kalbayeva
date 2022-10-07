@@ -5,7 +5,7 @@ from todolist.models import Status
 
 
 class TasksAdmin(admin.ModelAdmin):
-    list_display = ('id', 'summary', 'description', 'type', 'status', 'created_at', 'updated_at')
+    list_display = ('id', 'summary', 'description', 'status', 'created_at', 'updated_at')
     list_filter = ('id', 'summary', 'description', 'type', 'status', 'created_at', 'updated_at')
     search_fields = ('summary', 'description', 'type', 'status')
     fields = ('summary', 'description', 'type', 'status', 'created_at', 'updated_at')
