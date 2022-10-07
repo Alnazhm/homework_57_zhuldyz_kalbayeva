@@ -16,6 +16,6 @@ class TaskAddView(TemplateView):
     def post(self, request, *args, **kwargs):
         form = TaskForm(request.POST)
         if form.is_valid():
-            task = Tasks.objects.create(**form.cleaned_data)
+            task = form.save()
             return redirect('task_detail',pk=task.pk)
         return render(request, 'create_task.html', context={'form': form})

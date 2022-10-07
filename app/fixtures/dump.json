@@ -1,27 +1,13 @@
 [
 {
   "model": "todolist.tasks",
-  "pk": 2,
+  "pk": 8,
   "fields": {
-    "summary": "Visit doctor",
-    "description": "At Wednesday",
-    "status": 2,
-    "created_at": "2022-10-06T18:39:49.091Z",
-    "updated_at": "2022-10-07T06:47:44.172Z",
-    "type": [
-      2
-    ]
-  }
-},
-{
-  "model": "todolist.tasks",
-  "pk": 3,
-  "fields": {
-    "summary": "Read book",
-    "description": "At weekends",
+    "summary": "efwfw",
+    "description": "sdvsvsv",
     "status": 1,
-    "created_at": "2022-10-06T22:41:40.322Z",
-    "updated_at": "2022-10-07T00:51:48.881Z",
+    "created_at": "2022-10-07T13:08:28.011Z",
+    "updated_at": "2022-10-07T13:08:28.011Z",
     "type": [
       1
     ]
@@ -29,50 +15,72 @@
 },
 {
   "model": "todolist.tasks",
-  "pk": 4,
+  "pk": 9,
   "fields": {
-    "summary": "Visit parents",
-    "description": "At weekends",
-    "status": 1,
-    "created_at": "2022-10-06T22:44:16.258Z",
-    "updated_at": "2022-10-06T22:44:16.259Z",
-    "type": []
-  }
-},
-{
-  "model": "todolist.tasks",
-  "pk": 5,
-  "fields": {
-    "summary": "Complete project1",
+    "summary": "task2",
     "description": "",
     "status": 2,
-    "created_at": "2022-10-06T22:46:17.344Z",
-    "updated_at": "2022-10-06T22:46:17.344Z",
-    "type": []
+    "created_at": "2022-10-07T13:08:46.907Z",
+    "updated_at": "2022-10-07T13:08:46.907Z",
+    "type": [
+      2
+    ]
   }
 },
 {
   "model": "todolist.tasks",
-  "pk": 6,
-  "fields": {
-    "summary": "Task2",
-    "description": "",
-    "status": 3,
-    "created_at": "2022-10-06T22:51:12.008Z",
-    "updated_at": "2022-10-06T22:51:12.008Z",
-    "type": []
-  }
-},
-{
-  "model": "todolist.tasks",
-  "pk": 7,
+  "pk": 10,
   "fields": {
     "summary": "task3",
     "description": "",
+    "status": 3,
+    "created_at": "2022-10-07T13:09:01.800Z",
+    "updated_at": "2022-10-07T13:09:01.800Z",
+    "type": [
+      3
+    ]
+  }
+},
+{
+  "model": "todolist.tasks",
+  "pk": 11,
+  "fields": {
+    "summary": "task6",
+    "description": "",
     "status": 1,
-    "created_at": "2022-10-06T22:52:05.255Z",
-    "updated_at": "2022-10-06T22:52:05.256Z",
-    "type": []
+    "created_at": "2022-10-07T13:09:16.052Z",
+    "updated_at": "2022-10-07T13:09:16.053Z",
+    "type": [
+      1
+    ]
+  }
+},
+{
+  "model": "todolist.tasks",
+  "pk": 12,
+  "fields": {
+    "summary": "task7",
+    "description": "",
+    "status": 2,
+    "created_at": "2022-10-07T13:09:30.751Z",
+    "updated_at": "2022-10-07T13:09:30.751Z",
+    "type": [
+      2
+    ]
+  }
+},
+{
+  "model": "todolist.tasks",
+  "pk": 13,
+  "fields": {
+    "summary": "task8",
+    "description": "",
+    "status": 3,
+    "created_at": "2022-10-07T13:09:43.695Z",
+    "updated_at": "2022-10-07T13:09:43.695Z",
+    "type": [
+      2
+    ]
   }
 },
 {
