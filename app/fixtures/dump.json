@@ -4,11 +4,13 @@
   "pk": 2,
   "fields": {
     "summary": "Visit doctor",
-    "description": "",
+    "description": "At Wednesday",
     "status": 2,
-    "type": 2,
     "created_at": "2022-10-06T18:39:49.091Z",
-    "updated_at": "2022-10-06T22:41:12.831Z"
+    "updated_at": "2022-10-07T06:47:44.172Z",
+    "type": [
+      2
+    ]
   }
 },
 {
@@ -18,9 +20,11 @@
     "summary": "Read book",
     "description": "At weekends",
     "status": 1,
-    "type": 1,
     "created_at": "2022-10-06T22:41:40.322Z",
-    "updated_at": "2022-10-06T22:45:40.877Z"
+    "updated_at": "2022-10-07T00:51:48.881Z",
+    "type": [
+      1
+    ]
   }
 },
 {
@@ -30,9 +34,9 @@
     "summary": "Visit parents",
     "description": "At weekends",
     "status": 1,
-    "type": 1,
     "created_at": "2022-10-06T22:44:16.258Z",
-    "updated_at": "2022-10-06T22:44:16.259Z"
+    "updated_at": "2022-10-06T22:44:16.259Z",
+    "type": []
   }
 },
 {
@@ -42,9 +46,9 @@
     "summary": "Complete project1",
     "description": "",
     "status": 2,
-    "type": 3,
     "created_at": "2022-10-06T22:46:17.344Z",
-    "updated_at": "2022-10-06T22:46:17.344Z"
+    "updated_at": "2022-10-06T22:46:17.344Z",
+    "type": []
   }
 },
 {
@@ -54,9 +58,9 @@
     "summary": "Task2",
     "description": "",
     "status": 3,
-    "type": 3,
     "created_at": "2022-10-06T22:51:12.008Z",
-    "updated_at": "2022-10-06T22:51:12.008Z"
+    "updated_at": "2022-10-06T22:51:12.008Z",
+    "type": []
   }
 },
 {
@@ -66,9 +70,9 @@
     "summary": "task3",
     "description": "",
     "status": 1,
-    "type": 1,
     "created_at": "2022-10-06T22:52:05.255Z",
-    "updated_at": "2022-10-06T22:52:05.256Z"
+    "updated_at": "2022-10-06T22:52:05.256Z",
+    "type": []
   }
 },
 {
